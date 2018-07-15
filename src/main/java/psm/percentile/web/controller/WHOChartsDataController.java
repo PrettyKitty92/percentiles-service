@@ -19,6 +19,12 @@ public class WHOChartsDataController {
     @Autowired
     WHOChartDataService whoChartDataService;
 
+    @RequestMapping("/")
+    @ResponseBody
+    String home() {
+        return "Hello in Percentile World!";
+    }
+
     @GetMapping(value="/{measurementType}/{childSex}")
     ResponseEntity retrieveSampleByMeasurementTypeAndAndChildSexByUnitTypeForParameterX(
             @PathVariable MeasurementType measurementType,
