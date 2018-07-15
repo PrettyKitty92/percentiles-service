@@ -1,0 +1,17 @@
+package psm.percentile.common.model;
+
+/**
+ * Created by Patrycja on 15.05.2017.
+ */
+public enum MeasurementType {
+    WEIGHT_FOR_AGE,
+    WEIGHT_FOR_LENGTH_HEIGHT,
+    WEIGHT_FOR_LENGTH,
+    WEIGHT_FOR_HEIGHT,
+    BMI_FOR_AGE,
+    HEAD_CIRCUMFERENCE_FOR_AGE,
+    ARM_CIRCUMFERENCE_FOR_AGE,
+    TRICEPS_SKINFOLD_FOR_AGE,
+    LENGTH_HEIGHT_FOR_AGE,
+    SUBSCAPULAR_SKINFOLD_FOR_AGE
+}
