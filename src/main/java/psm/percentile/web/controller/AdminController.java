@@ -5,7 +5,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.*;
 import psm.percentile.common.model.user.ApplicationUser;
-import psm.percentile.web.Application;
 import psm.percentile.web.service.AdminService;
 import psm.percentile.web.service.IAdminService;
 

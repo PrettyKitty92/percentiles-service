@@ -22,10 +22,6 @@ public class MeasurementController {
 
     private IMeasurementService measurementService;
 
-/*    @Autowired
-    private IAuthenticationFacade authenticationFacade;*/
-
-
     public MeasurementController(MeasurementService measurementService, BCryptPasswordEncoder bCryptPasswordEncoder) {
         this.measurementService = measurementService;
     }

@@ -1,6 +1,5 @@
 package psm.percentile.web.repository;
 
-import jdk.management.resource.internal.inst.AbstractPlainDatagramSocketImplRMHooks;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import psm.percentile.common.model.user.ApplicationUser;
